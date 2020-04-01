@@ -1,0 +1,14 @@
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\bin\Debug\netstandard2.0\Xamarin_TP_Module_04.deps.json
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\bin\Debug\netstandard2.0\Xamarin_TP_Module_04.dll
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\bin\Debug\netstandard2.0\ref\Xamarin_TP_Module_04.dll
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\bin\Debug\netstandard2.0\Xamarin_TP_Module_04.pdb
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\Xamarin_TP_Module_04.csprojAssemblyReference.cache
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\Xamarin_TP_Module_04.csproj.CoreCompileInputs.cache
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\Xamarin_TP_Module_04.AssemblyInfoInputs.cache
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\Xamarin_TP_Module_04.AssemblyInfo.cs
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\Xamarin_TP_Module_04.dll
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\ref\Xamarin_TP_Module_04.dll
+C:\Users\Martin\source\repos\Xamarin_TP_Module_04\Xamarin_TP_Module_04\Xamarin_TP_Module_04\obj\Debug\netstandard2.0\Xamarin_TP_Module_04.pdb

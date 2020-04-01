@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Xamarin_TP_Module_04.MainPage">
+
+    <StackLayout Orientation="Vertical"
+        VerticalOptions="FillAndExpand"
+        Padding="0">
+        <StackLayout x:Name="menu"
+            Padding="10, 25"
+            Orientation="Horizontal"
+            BackgroundColor="#58B0F0"
+                     >
+            <ImageButton Source="pencil.png"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="Center"
+                WidthRequest="25"
+                BackgroundColor="Transparent"/>
+            <Label Text="Accueil" 
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center"
+                   TextColor="White"
+                   FontSize="20"
+                   FontAttributes="Bold"/>
+            <ImageButton Source="search.png"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="Center"
+                WidthRequest="25"
+                BackgroundColor="Transparent"/>
+        </StackLayout>
+
+        <StackLayout x:Name="connection_form"
+            Orientation="Vertical"
+            VerticalOptions="StartAndExpand">
+            <Label Text="Connexion à Twitter"
+                HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="erreur"
+                TextColor="Red"
+                HorizontalOptions="FillAndExpand"
+                HorizontalTextAlignment="Center"
+                IsVisible="False"/>
+            <Entry x:Name="username"
+                Placeholder="Identifiant Twitter"
+                HorizontalOptions="FillAndExpand"/>
+            <Entry x:Name="password"
+                Placeholder="Mot de passe"
+                HorizontalOptions="FillAndExpand"/>
+            <StackLayout Orientation="Horizontal">
+                <Switch x:Name="remember_me"
+                    IsToggled="True"/>
+                <Label Text="Mémoriser mes informations"/>
+            </StackLayout>
+            <Button Text="SE CONNECTER"
+                x:Name="connection_button"
+                Clicked="Connection_Clicked"/>
+        </StackLayout>
+
+        <ScrollView x:Name="feed"
+            Orientation="Vertical"
+            VerticalOptions="FillAndExpand"
+            Margin="10"
+            IsVisible="False">
+
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Image HorizontalOptions="Fill"
+                       WidthRequest="75"
+                       Source="https://picsum.photos/50/50/?random"/>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Cedric @cedricmillauriaux"/>
+                        <Label Text="Créer une carte comportant trois zones qui se suivent verticalement : une première zone avec le contenu du tweet, une deuxième avec trois textes (Répondre, Retweet et Favoris) et une dernière qui représente une fine barre grise de séparation."/>
+                    </StackLayout>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal"
+                    Margin="0, 10, 0, 0">
+                    <ImageButton Source="reply.png"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="Transparent"
+                        WidthRequest="22"/>
+                    <ImageButton Source="retweet.png"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="Transparent"
+                        WidthRequest="22"/>
+                    <ImageButton Source="favorite.png"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="Transparent"
+                        WidthRequest="22"/>
+                </StackLayout>
+
+                <Label HorizontalOptions="Fill"
+                       HeightRequest="1"
+                       BackgroundColor="Gray"/>
+            </StackLayout>
+
+        </ScrollView>
+
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="End">
+            <Label Text="Fil"
+                HeightRequest="75"
+                HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Notifications"
+                HeightRequest="75"
+                HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Messages"
+                HeightRequest="75"
+                HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Moi"
+                HeightRequest="75"
+                HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
